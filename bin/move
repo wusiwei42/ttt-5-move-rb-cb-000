@@ -4,9 +4,9 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-prints "Welcome to Tic Tac Toe!"
+puts "Welcome to Tic Tac Toe!"
 display_board(board)
-prints "Where would you like to go?"
+puts "Where would you like to go?"
 user_input = gets.strip
 input_to_index(user_input)
 move(board, user_input, 'X')
